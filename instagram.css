@@ -1,0 +1,45 @@
+.insta {
+  height: 200px;
+  width: 200px;
+  border-radius: 60px;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 165px;
+  height: 165px;
+  background: transparent;
+  border: 12px solid white;
+  border-radius: 45px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-big {
+  height: 85px;
+  width: 85px;
+  background: transparent;
+  border: 12px solid white;
+  border-radius: 50%;
+}
+
+.circle-small {
+  height: 15px;
+  width: 15px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
