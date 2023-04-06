@@ -1,0 +1,38 @@
+.google {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.google .top {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-top: 30px solid #e33e3b;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #3ba14b;
+  border-left: 30px solid #f1b500;
+  border-radius: 50%;
+}
+
+.google .half {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border: 30px solid transparent;
+  border-right: 30px solid #3a7cec;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.google .line {
+  width: 80px;
+  height: 30px;
+  background-color: #3a7cec;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-bottom-right-radius: 15px;
+}
