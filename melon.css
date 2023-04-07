@@ -1,0 +1,27 @@
+.melon {
+  width: 320px;
+  height: 160px;
+  background-color: #fd6c64;
+  border-left: 20px solid #5af5b6;
+  border-bottom: 20px solid #5af5b6;
+  border-right: 20px solid #5af5b6;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  overflow: hidden;
+}
+
+.melon span {
+  width: 10px;
+  height: 10px;
+  background-color: #262626;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px;
+}
+
+/* .melon span:nth-child(6),
+.melon span:nth-child(11),
+.melon span:nth-child(13),
+.melon span:nth-child(14) {
+  opacity: 0;
+} */
