@@ -54,6 +54,14 @@ body {
   margin: 0;
   padding: 20px;
   background: #fff;
+  font-family: "Epilogue", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.artboard {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
