@@ -229,3 +229,34 @@
   border: 1px solid black;
   transform: rotate(-20deg);
 }
+
+.ear {
+  position: absolute;
+  width: 32px;
+  height: 37px;
+  background-color: #def90f;
+  top: 200px;
+  left: 10px;
+  transform: rotate(10deg);
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.ear-1 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 8px;
+  left: 8px;
+  border-left: 1px solid black;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.ear-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: -3px;
+  border-bottom: 1px solid #000;
+}
