@@ -1,3 +1,77 @@
 .mario {
   background-color: skyblue;
 }
+
+.mario-art {
+  padding: 100px 0 0 100px;
+  position: relative;
+  border: 1px solid black;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+}
+
+.cap {
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  width: 70px;
+  height: 15px;
+  top: 0;
+  left: 50px;
+}
+
+.cap::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  background-color: red;
+  width: 130px;
+  left: -20px;
+  height: 15px;
+}
+
+.hair {
+  width: 50px;
+  height: 15px;
+  background-color: brown;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.hair::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 45px;
+  left: 15px;
+  background-color: brown;
+}
+
+.hair::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  background-color: brown;
+  top: 30px;
+  left: 15px;
+}
+
+.ear {
+  width: 15px;
+  height: 30px;
+  background-color: brown;
+  position: absolute;
+  top: 45px;
+  left: 15px;
+}
+
+.ear::after {
+  content: "";
+  position: absolute;
+  background-color: burlywood;
+  top: 45px;
+  left: 30px;
+}
