@@ -4,6 +4,7 @@
   --hair-tone: brown;
   --bg-color: lightblue;
   --pants-tone: darkblue;
+  --yellow: yellow;
 }
 
 .mario {
@@ -298,4 +299,52 @@
   background-color: var(--hair-tone);
   top: 15px;
   right: -15px;
+}
+
+/* Arms */
+.arm-1 {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  background-color: var(--skin-tone);
+  top: 150px;
+}
+
+.arm-2 {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  background-color: var(--skin-tone);
+  top: 150px;
+  left: 145px;
+}
+
+.arm-2::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--red-tone);
+  left: 10px;
+}
+
+/* Buttons */
+.buttons {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: var(--yellow);
+  top: 150px;
+  left: 60px;
+  z-index: 1;
+}
+
+.buttons::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: var(--yellow);
+  left: 64px;
+  z-index: 1;
 }
