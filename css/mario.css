@@ -231,3 +231,71 @@
   top: 30px;
   right: -15px;
 }
+
+.straps {
+  width: 80px;
+  height: 15px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: 135px;
+  left: 60px;
+}
+
+.straps::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 45px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: -30px;
+}
+
+.straps::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+
+.shoe-1 {
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  top: 210px;
+  left: 15px;
+}
+
+.shoe-1::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  top: 15px;
+  left: -15px;
+}
+
+.shoe-2 {
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  top: 210px;
+  left: 140px;
+}
+
+.shoe-2::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  top: 15px;
+  right: -15px;
+}
