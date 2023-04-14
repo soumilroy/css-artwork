@@ -1,0 +1,350 @@
+:root {
+  --red-tone: red;
+  --skin-tone: burlywood;
+  --hair-tone: brown;
+  --bg-color: lightblue;
+  --pants-tone: darkblue;
+  --yellow: yellow;
+}
+
+.mario {
+  background-color: var(--bg-color);
+}
+
+.container {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mario-art {
+  position: relative;
+}
+
+/* head */
+.head {
+  position: relative;
+}
+
+.cap {
+  background-color: var(--red-tone);
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  height: 15px;
+  top: 0;
+  left: 50px;
+}
+
+.cap::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  background-color: var(--red-tone);
+  width: 144px;
+  left: -20px;
+  height: 15px;
+}
+
+.hair {
+  width: 50px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.hair::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 45px;
+  left: 15px;
+  background-color: var(--hair-tone);
+}
+
+.hair::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  top: 30px;
+  left: 15px;
+}
+
+.ear {
+  width: 15px;
+  height: 30px;
+  background-color: var(--hair-tone);
+  position: absolute;
+  top: 45px;
+  left: 15px;
+}
+
+.ear::before {
+  width: 30px;
+  height: 15px;
+  content: "";
+  position: absolute;
+  background-color: var(--hair-tone);
+  top: 30px;
+  height: 15px;
+}
+
+.ear::after {
+  content: "";
+  position: absolute;
+  background-color: var(--skin-tone);
+  width: 15px;
+  height: 30px;
+  top: 0px;
+  left: 15px;
+}
+
+.face {
+  width: 85px;
+  height: 45px;
+  background-color: var(--skin-tone);
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+
+.face::after {
+  content: "";
+  background-color: var(--skin-tone);
+  height: 30px;
+  width: 115px;
+  position: absolute;
+  top: 45px;
+  left: -15px;
+}
+
+.eye {
+  width: 15px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  top: 30px;
+  z-index: 1;
+  left: 115px;
+}
+
+.stasche {
+  background-color: var(--hair-tone);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 60px;
+  left: 130px;
+}
+
+.stasche::after {
+  content: "";
+  width: 60px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  position: absolute;
+  top: 15px;
+  left: -15px;
+}
+
+.nose {
+  background-color: var(--skin-tone);
+  width: 30px;
+  height: 15px;
+  position: absolute;
+  top: 45px;
+  left: 143px;
+}
+
+.nose::after {
+  content: "";
+  background-color: var(--skin-tone);
+  width: 45px;
+  height: 15px;
+  position: absolute;
+  top: 15px;
+  right: -17px;
+}
+
+/* body */
+.shirt {
+  width: 110px;
+  height: 60px;
+  background-color: var(--red-tone);
+  position: absolute;
+  top: 105px;
+  left: 30px;
+}
+
+.shirt::before {
+  content: "";
+  background-color: var(--red-tone);
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  left: -15px;
+  top: 15px;
+  box-shadow: -15px 15px 0 var(--red-tone);
+}
+
+.shirt::after {
+  content: "";
+  background-color: var(--red-tone);
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  right: -35px;
+  top: 15px;
+  box-shadow: 15px 15px 0 var(--red-tone);
+}
+
+.pants {
+  width: 110px;
+  height: 45px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: 150px;
+  left: 45px;
+}
+
+.pants::before {
+  content: "";
+  width: 45px;
+  height: 30px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: 30px;
+  left: -15px;
+}
+
+.pants::after {
+  content: "";
+  width: 45px;
+  height: 30px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: 30px;
+  right: -15px;
+}
+
+.straps {
+  width: 80px;
+  height: 15px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: 135px;
+  left: 60px;
+}
+
+.straps::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 45px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: -30px;
+}
+
+.straps::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+
+.shoe-1 {
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  top: 210px;
+  left: 15px;
+}
+
+.shoe-1::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  top: 15px;
+  left: -15px;
+}
+
+.shoe-2 {
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  top: 210px;
+  left: 140px;
+}
+
+.shoe-2::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  background-color: var(--hair-tone);
+  top: 15px;
+  right: -15px;
+}
+
+/* Arms */
+.arm-1 {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  background-color: var(--skin-tone);
+  top: 150px;
+}
+
+.arm-2 {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  background-color: var(--skin-tone);
+  top: 150px;
+  left: 145px;
+}
+
+.arm-2::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--red-tone);
+  left: 10px;
+}
+
+/* Buttons */
+.buttons {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: var(--yellow);
+  top: 150px;
+  left: 60px;
+  z-index: 1;
+}
+
+.buttons::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: var(--yellow);
+  left: 64px;
+  z-index: 1;
+}
