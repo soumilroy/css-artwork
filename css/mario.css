@@ -15,7 +15,7 @@
   background-color: red;
   display: inline-block;
   position: absolute;
-  width: 70px;
+  width: 80px;
   height: 15px;
   top: 0;
   left: 50px;
@@ -26,7 +26,7 @@
   position: absolute;
   top: 15px;
   background-color: red;
-  width: 130px;
+  width: 150px;
   left: -20px;
   height: 15px;
 }
@@ -68,10 +68,41 @@
   left: 15px;
 }
 
+.ear::before {
+  width: 30px;
+  height: 15px;
+  content: "";
+  position: absolute;
+  background-color: brown;
+  top: 30px;
+  height: 15px;
+}
+
 .ear::after {
   content: "";
   position: absolute;
   background-color: burlywood;
+  width: 15px;
+  height: 30px;
+  top: 0px;
+  left: 15px;
+}
+
+.face {
+  width: 90px;
+  height: 45px;
+  background-color: burlywood;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+
+.face::after {
+  content: "";
+  background-color: burlywood;
+  height: 30px;
+  width: 115px;
+  position: absolute;
   top: 45px;
-  left: 30px;
+  left: -15px;
 }
