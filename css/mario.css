@@ -1,5 +1,12 @@
+:root {
+  --red-tone: red;
+  --skin-tone: burlywood;
+  --hair-tone: brown;
+  --bg-color: lightblue;
+}
+
 .mario {
-  background-color: skyblue;
+  background-color: var(--bg-color);
 }
 
 .container {
@@ -20,7 +27,7 @@
 }
 
 .cap {
-  background-color: red;
+  background-color: var(--red-tone);
   display: inline-block;
   position: absolute;
   width: 80px;
@@ -33,7 +40,7 @@
   content: "";
   position: absolute;
   top: 15px;
-  background-color: red;
+  background-color: var(--red-tone);
   width: 144px;
   left: -20px;
   height: 15px;
@@ -42,7 +49,7 @@
 .hair {
   width: 50px;
   height: 15px;
-  background-color: brown;
+  background-color: var(--hair-tone);
   position: absolute;
   top: 30px;
   left: 30px;
@@ -54,7 +61,7 @@
   width: 15px;
   height: 45px;
   left: 15px;
-  background-color: brown;
+  background-color: var(--hair-tone);
 }
 
 .hair::after {
@@ -62,7 +69,7 @@
   position: absolute;
   width: 30px;
   height: 15px;
-  background-color: brown;
+  background-color: var(--hair-tone);
   top: 30px;
   left: 15px;
 }
@@ -70,7 +77,7 @@
 .ear {
   width: 15px;
   height: 30px;
-  background-color: brown;
+  background-color: var(--hair-tone);
   position: absolute;
   top: 45px;
   left: 15px;
@@ -81,7 +88,7 @@
   height: 15px;
   content: "";
   position: absolute;
-  background-color: brown;
+  background-color: var(--hair-tone);
   top: 30px;
   height: 15px;
 }
@@ -89,7 +96,7 @@
 .ear::after {
   content: "";
   position: absolute;
-  background-color: burlywood;
+  background-color: var(--skin-tone);
   width: 15px;
   height: 30px;
   top: 0px;
@@ -99,7 +106,7 @@
 .face {
   width: 85px;
   height: 45px;
-  background-color: burlywood;
+  background-color: var(--skin-tone);
   position: absolute;
   top: 30px;
   left: 60px;
@@ -107,7 +114,7 @@
 
 .face::after {
   content: "";
-  background-color: burlywood;
+  background-color: var(--skin-tone);
   height: 30px;
   width: 115px;
   position: absolute;
@@ -126,7 +133,7 @@
 }
 
 .stasche {
-  background-color: brown;
+  background-color: var(--hair-tone);
   width: 15px;
   height: 15px;
   position: absolute;
@@ -138,14 +145,14 @@
   content: "";
   width: 60px;
   height: 15px;
-  background-color: brown;
+  background-color: var(--hair-tone);
   position: absolute;
   top: 15px;
   left: -15px;
 }
 
 .nose {
-  background-color: burlywood;
+  background-color: var(--skin-tone);
   width: 30px;
   height: 15px;
   position: absolute;
@@ -155,7 +162,7 @@
 
 .nose::after {
   content: "";
-  background-color: burlywood;
+  background-color: var(--skin-tone);
   width: 45px;
   height: 15px;
   position: absolute;
@@ -167,7 +174,7 @@
 .body {
   width: 110px;
   height: 60px;
-  background-color: red;
+  background-color: var(--red-tone);
   position: absolute;
   top: 105px;
   left: 30px;
@@ -175,22 +182,22 @@
 
 .body::before {
   content: "";
-  background-color: red;
+  background-color: var(--red-tone);
   position: absolute;
   width: 30px;
   height: 15px;
   left: -15px;
   top: 15px;
-  box-shadow: -15px 15px 0 red;
+  box-shadow: -15px 15px 0 var(--red-tone);
 }
 
 .body::after {
   content: "";
-  background-color: red;
+  background-color: var(--red-tone);
   position: absolute;
   width: 60px;
   height: 15px;
   right: -35px;
   top: 15px;
-  box-shadow: 15px 15px 0 red;
+  box-shadow: 15px 15px 0 var(--red-tone);
 }
