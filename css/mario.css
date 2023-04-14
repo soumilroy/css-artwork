@@ -3,6 +3,7 @@
   --skin-tone: burlywood;
   --hair-tone: brown;
   --bg-color: lightblue;
+  --pants-tone: darkblue;
 }
 
 .mario {
@@ -171,7 +172,7 @@
 }
 
 /* body */
-.body {
+.shirt {
   width: 110px;
   height: 60px;
   background-color: var(--red-tone);
@@ -180,7 +181,7 @@
   left: 30px;
 }
 
-.body::before {
+.shirt::before {
   content: "";
   background-color: var(--red-tone);
   position: absolute;
@@ -191,7 +192,7 @@
   box-shadow: -15px 15px 0 var(--red-tone);
 }
 
-.body::after {
+.shirt::after {
   content: "";
   background-color: var(--red-tone);
   position: absolute;
@@ -200,4 +201,33 @@
   right: -35px;
   top: 15px;
   box-shadow: 15px 15px 0 var(--red-tone);
+}
+
+.pants {
+  width: 110px;
+  height: 45px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: 150px;
+  left: 45px;
+}
+
+.pants::before {
+  content: "";
+  width: 45px;
+  height: 30px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: 30px;
+  left: -15px;
+}
+
+.pants::after {
+  content: "";
+  width: 45px;
+  height: 30px;
+  background-color: var(--pants-tone);
+  position: absolute;
+  top: 30px;
+  right: -15px;
 }
