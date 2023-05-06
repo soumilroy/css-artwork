@@ -22,7 +22,12 @@
   height: 150px;
   background-color: var(--furColor);
   border-radius: 300px 300px 150px 150px;
-  position: relative;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 6px solid white;
+  z-index: 1;
 }
 
 .dogeye-1 {
@@ -44,4 +49,16 @@
   right: 50px;
   border-radius: 100%;
   transform: rotate(-20deg);
+}
+
+.body {
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--furColor);
+  position: absolute;
+  top: 40%;
+  left: 41%;
+  border: 6px solid white;
+  /* transform: translate(-60%, -50%); */
 }
