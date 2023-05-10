@@ -10,7 +10,8 @@ export default defineConfig({
         practice: resolve(__dirname, "practice.html"),
         beaver: resolve(__dirname, "beaver.html"),
         mario: resolve(__dirname, "mario.html"),
-        homer: resolve(__dirname, "homer.html")
+        homer: resolve(__dirname, "homer.html"),
+        shiba: resolve(__dirname, "shiba.html")
       }
     }
   }
